@@ -10,6 +10,10 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+.sm-screen-only {
+    display: none;
+}
+
 .logo {
     width: 70px;
     height: 30px;
@@ -18,6 +22,7 @@ body {
 .navbar {
     background-color: #fff;
     padding: 8px 15px;
+    width: 100%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
@@ -79,7 +84,7 @@ body {
     height: 15px;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
     color: #1c1d1f;
     font-weight: 400;
@@ -87,7 +92,7 @@ nav a {
     font-size: 14px;
 }
 
-nav a:hover {
+.navbar a:hover {
     color: #8f00a2;
 }
 
@@ -145,7 +150,7 @@ nav a:hover {
     background-size: cover;
 }
 
-.header .container {
+.header .container:not(.sm-screen-only) {
     padding: 20px;
     width: 350px;
     height: 150px;
@@ -170,12 +175,13 @@ nav a:hover {
     padding-top: 10px; 
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .courses-list li {
     list-style: none;
     cursor: pointer;
-    color: #444;
+    color: #555;
     font-weight: 700;
     padding: 5px 10px 5px 0;
 }
@@ -216,12 +222,12 @@ nav a:hover {
     margin: 20px 0;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .course-card {
     padding: 5px;
-    width: 15em;
+    width: 11em;
 }
 
 .course-img img {
@@ -265,4 +271,67 @@ nav a:hover {
 .icon {
     color: rgba(239, 145, 4, 0.979);
     font-size: 8px;
+}
+
+@media only screen and (max-width: 360px) {
+    .big-screen-only {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .navbar .logo {
+        margin-right: 30px;
+    }
+
+    .navbar .sm-screen-only {
+        display: unset;
+        padding-top: 5px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .header .sm-screen-only {
+        display: unset;
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header .container:not(.sm-screen-only) {
+        padding: 0 0 0 20px;
+        width: 100%;
+        position: unset;
+        background-color: #fff;
+        box-shadow: unset;
+    }
+
+    .header h1, .courses > h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    .newline {
+        display: inline;
+    }
+
+    .course-card {
+        width: 100%;
+    }
 }

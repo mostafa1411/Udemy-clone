@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udemy</title>
-    <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,10 +13,13 @@
         <div class="container">
             <img class="logo" src="img/logo-udemy.svg" alt="udemy logo">
         </div>
-        <div class="container">
+        <div class="container sm-screen-only">
+            <i class="fa-solid fa-bars menu-icon"></i>
+        </div>
+        <div class="container big-screen-only">
             <a href="#categories">Categories</a>
         </div>
-        <div class="container form">
+        <div class="container big-screen-only">
             <form action="" method="post" class="search-form">
                 <label for="search">
                     <button type="submit" class="search-btn"><img src="img/search.svg" alt="search icon" class="search-icon"></button>
@@ -25,16 +27,16 @@
                 </label>
             </form>
         </div>
-        <div class="container">
+        <div class="container big-screen-only">
             <a href="#business">Udemy Business</a>
         </div>
-        <div class="container">
+        <div class="container big-screen-only">
             <a href="#teach">Teach on Udemy</a>
         </div>
-        <div class="container">
+        <div class="container big-screen-only">
             <a href="#shopping"><img class="shopping-img" src="img/shopping_cart.svg" alt="shopping cart icon"></a>
         </div>
-        <div class="container">
+        <div class="container big-screen-only">
             <button class="login-btn">Log in</button>
             <button class="signup-btn">Sign up</button>
             <button class="lang-btn"><img class="lang-img" src="img/language.svg" alt="language icon"></button>
@@ -42,6 +44,9 @@
     </nav>
 
     <header class="header">
+        <div class="container sm-screen-only">
+            <img src="img/header_background_small_screen.png">
+        </div>
         <div class="container">
             <h1>New to Udemy? Lucky <span class="newline">you.</span></h1>
             <p>Courses start at E£169.99. Get your new-<br>student offer before it expires.</p>
