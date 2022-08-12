@@ -241,6 +241,12 @@ body {
 .course-card {
     padding: 5px;
     width: 11em;
+    cursor: pointer;
+    transition: 0.7 ease;
+}
+
+.course-card:hover {
+    
 }
 
 .course-img img {
@@ -264,7 +270,8 @@ body {
 .course-info .bestseller {
     font-size: 11px;
     font-weight: 500;
-    background-color: rgb(214 210 11);
+    color: #3d3c0a;
+    background-color: #eceb98;
     padding: 5px;
     width: 60px;
     text-align: center;
@@ -273,16 +280,20 @@ body {
 .rating .rate {
     font-size: 12px;
     font-weight: 600;
-    color: rgb(176 122 87);
+    margin-right: 0.4rem;
+    color: #b4690e;
 }
 
 .rating .reviews {
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 400;
+    margin-left: 0.4rem;
+    color: #6a6f73;
 }
 
 .icon {
-    color: rgba(239, 145, 4, 0.979);
+    color: #e59819;
+    margin-right: 2px;
     font-size: 8px;
 }
 
