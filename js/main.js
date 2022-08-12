@@ -1,19 +1,20 @@
-window.addEventListener('load', fetchCourses);
+let courses = [];
+let cards = document.querySelector(".cards");
 
-function fetchCourses () {
-    fetch("../courses.json")
-    .then((response) => response.json())
-    .then((data) => {
-        renderCourses(data);
-        
-    })
-    .catch((error) => error)
+const fetchCourses = async () => {
+    try {
+        const response = await fetch("../courses.json");
+        courses = await response.json();
+        renderCourses(courses);
+    }
+    catch(err) {
+        console.error(err);
+    } 
 };
 
-function renderCourses(data) {
-    let cards = document.querySelector(".cards");
+const renderCourses = (courses) => {
 
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < courses.length; i++) {
         // create elements
         let courseCard = document.createElement("div");
         let courseImgContainer = document.createElement("div");
@@ -29,19 +30,19 @@ function renderCourses(data) {
         let bestSeller = document.createElement("div");
 
         // fill elements with content
-        courseImg.src = data[i].image;
-        courseTitle.innerHTML = data[i].title;
-        courseCreator.innerHTML = data[i].author;
-        courseRate.innerHTML = data[i].rating;
-        coursePrice.innerHTML = `E£${data[i].price}`;
-        courseReviews.innerHTML = `(${data[i].reviews})`;
+        courseImg.src = courses[i].image;
+        courseTitle.innerHTML = courses[i].title;
+        courseCreator.innerHTML = courses[i].author;
+        courseRate.innerHTML = courses[i].rating;
+        coursePrice.innerHTML = `E£${courses[i].price}`;
+        courseReviews.innerHTML = `(${courses[i].reviews})`;
         bestSeller.innerHTML = `Bestseller`;
         for (let j = 0; j < 5; j++) {
             let icon = document.createElement("i");
-            if (j + 0.8 <= data[i].rating) {
+            if (j + 0.8 <= courses[i].rating) {
                 icon.classList.add("fa-solid", "fa-star", "icon");
             }
-            else if (j + 0.2 >= data[i].rating) {
+            else if (j + 0.2 >= courses[i].rating) {
                 icon.classList.add("fa-regular", "fa-star", "icon");
             }
             else {
@@ -73,7 +74,7 @@ function renderCourses(data) {
         courseInfo.appendChild(courseCreator);
         courseInfo.appendChild(courseRating);
         courseInfo.appendChild(coursePrice);
-        if (data[i].bestseller) {
+        if (courses[i].bestseller) {
             courseInfo.appendChild(bestSeller);
         }
         courseCard.appendChild(courseImgContainer);
@@ -81,16 +82,34 @@ function renderCourses(data) {
         cards.appendChild(courseCard);
 
         // add event listeners for cards
-        courseCard.addEventListener('click', function(e) {
-            window.open(`${data[i].link}`, '_blank');
+        courseCard.addEventListener('click', () => {
+            window.open(`${courses[i].link}`, '_blank');
         });
 
-        courseCard.addEventListener('mouseover', function() {
+        courseCard.addEventListener('mouseover', () => {
             courseImg.style.opacity = 0.8;
         });
 
-        courseCard.addEventListener('mouseleave', function() {
+        courseCard.addEventListener('mouseleave', () => {
             courseImg.style.opacity = 1;
         });
     }
 };
+
+window.addEventListener('load', fetchCourses);
+
+
+// make search bar usable
+let searchBar = document.querySelector("#search");
+
+searchBar.addEventListener('keyup', (e) => {
+    // clear the courses
+    cards.innerHTML = ``;
+
+    // filter courses
+    const searchValue = e.target.value.toLowerCase();
+    const filteredCourses = courses.filter((course) => course.title.toLowerCase().includes(searchValue));
+    
+    // render the filtered courses
+    renderCourses(filteredCourses);
+});

@@ -245,10 +245,6 @@ body {
     transition: 0.7 ease;
 }
 
-.course-card:hover {
-    
-}
-
 .course-img img {
     width: 100%;
 }
