@@ -153,9 +153,9 @@ body {
 }
 
 .header .container:not(.sm-screen-only) {
-    padding: 20px;
-    width: 350px;
-    height: 150px;
+    padding: 20px 10px 20px 20px;
+    width: 35%;
+    height: auto;
     position: relative;
     top: 50px;
     left: 60px;
@@ -163,13 +163,24 @@ body {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.header h1, .courses > h1 {
+.header h1 {
     font-family: serif;
-    font-size: 30px;
+    font-size: 3vw;
     margin-bottom: 5px;
 }
 
+.header p {
+    font-size: 1.5vw;
+}
+
+.courses > h1 {
+    font-family: serif;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
 .courses {
+    margin: 10px;
     padding: 40px 20px;
 }
 
@@ -303,7 +314,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
     .big-screen-only {
         display: none;
     }
