@@ -1,20 +1,40 @@
-let courses = [];
-let cards = document.querySelector(".cards");
+let data = [];
+let currentActive = 0;
+let coursesContent = document.querySelector(".content");
 
 const fetchCourses = async () => {
     try {
         const response = await fetch("../courses.json");
-        courses = await response.json();
-        renderCourses(courses);
+        data = await response.json();
+        renderCourses(data[0]);
     }
     catch(err) {
         console.error(err);
     } 
 };
 
-const renderCourses = (courses) => {
+const renderCourses = (data) => {
+    // heading
+    let heading = document.createElement("h3");
+    heading.classList.add("heading");
+    heading.innerHTML = data.header;
 
-    for (let i = 0; i < courses.length; i++) {
+    // description
+    let description = document.createElement("p");
+    description.classList.add("description");
+    description.innerHTML = data.description;
+
+    // explore button
+    let exploreBtn = document.createElement("button");
+    exploreBtn.classList.add("btn");
+    exploreBtn.innerHTML = `Explore ${data.name}`;
+
+
+    // cards
+    let cards = document.createElement("div");
+    cards.classList.add("cards");
+
+    for (let i = 0; i < data.courses.length; i++) {
         // create elements
         let courseCard = document.createElement("div");
         let courseImgContainer = document.createElement("div");
@@ -30,19 +50,19 @@ const renderCourses = (courses) => {
         let bestSeller = document.createElement("div");
 
         // fill elements with content
-        courseImg.src = courses[i].image;
-        courseTitle.innerHTML = courses[i].title;
-        courseCreator.innerHTML = courses[i].author;
-        courseRate.innerHTML = courses[i].rating;
-        coursePrice.innerHTML = `E£${courses[i].price}`;
-        courseReviews.innerHTML = `(${courses[i].reviews})`;
+        courseImg.src = data.courses[i].image;
+        courseTitle.innerHTML = data.courses[i].title;
+        courseCreator.innerHTML = data.courses[i].author;
+        courseRate.innerHTML = data.courses[i].rating;
+        coursePrice.innerHTML = `E£${data.courses[i].price}`;
+        courseReviews.innerHTML = `(${data.courses[i].reviews})`;
         bestSeller.innerHTML = `Bestseller`;
         for (let j = 0; j < 5; j++) {
             let icon = document.createElement("i");
-            if (j + 0.8 <= courses[i].rating) {
+            if (j + 0.8 <= data.courses[i].rating) {
                 icon.classList.add("fa-solid", "fa-star", "icon");
             }
-            else if (j + 0.2 >= courses[i].rating) {
+            else if (j + 0.2 >= data.courses[i].rating) {
                 icon.classList.add("fa-regular", "fa-star", "icon");
             }
             else {
@@ -74,7 +94,7 @@ const renderCourses = (courses) => {
         courseInfo.appendChild(courseCreator);
         courseInfo.appendChild(courseRating);
         courseInfo.appendChild(coursePrice);
-        if (courses[i].bestseller) {
+        if (data.courses[i].bestseller) {
             courseInfo.appendChild(bestSeller);
         }
         courseCard.appendChild(courseImgContainer);
@@ -83,7 +103,7 @@ const renderCourses = (courses) => {
 
         // add event listeners for cards
         courseCard.addEventListener('click', () => {
-            window.open(`${courses[i].link}`, '_blank');
+            window.open(`${data.courses[i].link}`, '_blank');
         });
 
         courseCard.addEventListener('mouseover', () => {
@@ -94,9 +114,35 @@ const renderCourses = (courses) => {
             courseImg.style.opacity = 1;
         });
     }
+
+    coursesContent.appendChild(heading);
+    coursesContent.appendChild(description);
+    coursesContent.appendChild(exploreBtn);
+    coursesContent.appendChild(cards);
 };
 
 window.addEventListener('load', fetchCourses);
+
+const btns = document.querySelectorAll(".course-section");
+
+for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', () => {
+        // remove active from all buttons
+        for (let j = 0; j < btns.length; j++) {
+            btns[j].classList.remove("active");
+        }
+
+        // add active class to the current button
+        btns[i].classList.add("active");
+        currentActive = i;
+
+        // clear the content
+        coursesContent.innerHTML = ``;
+
+        // render the current active section
+        renderCourses(data[currentActive]);
+    });
+}
 
 
 // make search bar usable
@@ -104,12 +150,13 @@ let searchBar = document.querySelector("#search");
 
 searchBar.addEventListener('keyup', (e) => {
     // clear the courses
-    cards.innerHTML = ``;
+    coursesContent.innerHTML = ``;
 
     // filter courses
     const searchValue = e.target.value.toLowerCase();
-    const filteredCourses = courses.filter((course) => course.title.toLowerCase().includes(searchValue));
-    
-    // render the filtered courses
-    renderCourses(filteredCourses);
+    let filteredData = Object.assign({}, data[currentActive]);
+    filteredData.courses = filteredData.courses.filter((course) => course.title.toLowerCase().includes(searchValue));
+
+    // render the filtered data
+    renderCourses(filteredData);
 });
