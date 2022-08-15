@@ -4,7 +4,7 @@ let coursesContent = document.querySelector(".content");
 
 const fetchCourses = async () => {
     try {
-        const response = await fetch("../courses.json");
+        const response = await fetch("http://localhost:3000/content");
         data = await response.json();
         renderCourses(data[0]);
     }

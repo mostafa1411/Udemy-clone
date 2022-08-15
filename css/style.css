@@ -294,6 +294,37 @@ body {
     font-size: 8px;
 }
 
+.section-header {
+    margin: 0 0 24px 50px;
+    font-size: 20px;
+    color: #1c1d1f;
+    font-weight: 700;
+}
+
+.categories .card {
+    cursor: pointer;
+    border: none;
+}
+
+.card .wrapper {
+    overflow: hidden;
+}
+
+.categories .card-img {
+    transition: 0.5s ease;
+}
+
+.categories .card-img:hover {
+    transform: scale(1.1);
+}
+
+.categories .card-text {
+    color: #1c1d1f;
+    padding: 0.8rem 0 1.6rem;
+    font-size: 12px;
+    font-weight: 800;
+}
+
 @media only screen and (max-width: 855px) {
     .navbar .business {
         display: none;

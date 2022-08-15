@@ -1,843 +1,845 @@
-[
-  {
-    "name": "Python",
-    "header":"Expand your career opportunities with Python",
-    "description":"Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
-    "courses": [
-      {
-        "id": 1,
-        "link": "https://www.udemy.com/course/pythonforbeginners/",
-        "title": "Learn Python: The Complete Python Programming Course",
-        "author": "Avinash Jain,The Codex",
-        "image": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
-        "price": "679.99",
-        "rating": 4.4,
-        "reviews": "2,948",
-        "bestseller": false
-      },
-      {
-        "id": 2,
-        "link": "https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/",
-        "title": "Learning Python for Data Analysis and Visualization",
-        "author": "Jose Portilla",
-        "image": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
-        "price": "1,599.99",
-        "rating": 4.4,
-        "reviews": "17,999",
-        "bestseller": true
-      },
-      {
-        "id": 3,
-        "link": "https://www.udemy.com/course/python-for-beginners-learn-programming-from-scratch/",
-        "title": "Python for Beginners - Learn Programming from scratch",
-        "author": "Edwin Diaz, Coding FAcutly Solutaions",
-        "image": "https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
-        "price": "679.99",
-        "rating": 4.4,
-        "reviews": "1,781",
-        "bestseller": false
-      },
-      {
-        "id": 4,
-        "link": "https://www.udemy.com/course/learn-python/",
-        "title": "Learn Python: Python for Beginners",
-        "author": "Abrar Hussain",
-        "image": "https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg",
-        "price": "319.99",
-        "rating": 4.3,
-        "reviews": "2,773",
-        "bestseller": false
-      },
-      {
-        "id": 5,
-        "link": "https://www.udemy.com/course/python-beyond-the-basics-object-oriented-programming/",
-        "title": "Python Beyond the Basics - Object-Oriented Programming",
-        "author": "Infinite Skills",
-        "image": "https://img-c.udemycdn.com/course/480x270/449532_2aa9_7.jpg",
-        "price": "519.99",
-        "rating": 4.4,
-        "reviews": "2,930",
-        "bestseller": false
-      },
-      {
-        "id": 6,
-        "link": "https://www.udemy.com/course/selenium-webdriver-and-python/",
-        "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
-        "author": "Admas Kinfu",
-        "image": "https://img-c.udemycdn.com/course/480x270/482754_7146_6.jpg",
-        "price": "1,299.99",
-        "rating": 4.7,
-        "reviews": "1,813",
-        "bestseller": true
-      },
-      {
-        "id": 7,
-        "link": "https://www.udemy.com/course/teach-your-kids-to-code/",
-        "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
-        "author": "Bryson Payne",
-        "image": "https://img-c.udemycdn.com/course/480x270/519554_da68_6.jpg",
-        "price": "319.99",
-        "rating": 4.5,
-        "reviews": "8,809",
-        "bestseller": true
-      },
-      {
-        "id": 8,
-        "link": "https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/",
-        "title": "Python for Data Structures, Algorithms, and Interviews!",
-        "author": "Jose Portilla",
-        "image": "https://img-c.udemycdn.com/course/480x270/535622_3bc0.jpg",
-        "price": "1,299.99",
-        "rating": 4.5,
-        "reviews": "10.701",
-        "bestseller": false
-      },
-      {
-        "id": 9,
-        "link": "https://www.udemy.com/course/automate/",
-        "title": "Automate the Boring Stuff with Python Programming",
-        "author": "Al Sweigart",
-        "image": "https://img-c.udemycdn.com/course/480x270/543600_64d1_4.jpg",
-        "price": "519.99",
-        "rating": 4.7,
-        "reviews": "101,703",
-        "bestseller": false
-      },
-      {
-        "id": 10,
-        "link": "https://www.udemy.com/course/complete-python-bootcamp/",
-        "title": "2022 Complete Python Bootcamp From Zero to Hero in Python",
-        "author": "Jose Portilla",
-        "image": "https://img-c.udemycdn.com/course/480x270/567828_67d0.jpg",
-        "price": "729.99",
-        "rating": 4.6,
-        "reviews": "427,994",
-        "bestseller": false
-      }
-    ]
-  },
-  {
-    "name": "Excel",
-    "header": "Analyze and visualize data with Excel",
-    "description":"Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.",
-    "courses": [
+{
+    "content": [
         {
-            "id": 1,
-            "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
-            "headline": "Learn to Master Microsoft Excel In Easy To Follow Step-By-Step Training Course. Comes With Extensive Working Files",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/31535_e351_7.jpg",
-            "author": "Infinite Skills",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "Python",
+            "header": "Expand your career opportunities with Python",
+            "description": "Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
+            "courses": [
+                {
+                    "id": 1,
+                    "link": "https://www.udemy.com/course/pythonforbeginners/",
+                    "title": "Learn Python: The Complete Python Programming Course",
+                    "author": "Avinash Jain,The Codex",
+                    "image": "https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg",
+                    "price": "679.99",
+                    "rating": 4.4,
+                    "reviews": "2,948",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "link": "https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/",
+                    "title": "Learning Python for Data Analysis and Visualization",
+                    "author": "Jose Portilla",
+                    "image": "https://img-c.udemycdn.com/course/240x135/396876_cc92_7.jpg",
+                    "price": "1,599.99",
+                    "rating": 4.4,
+                    "reviews": "17,999",
+                    "bestseller": true
+                },
+                {
+                    "id": 3,
+                    "link": "https://www.udemy.com/course/python-for-beginners-learn-programming-from-scratch/",
+                    "title": "Python for Beginners - Learn Programming from scratch",
+                    "author": "Edwin Diaz, Coding FAcutly Solutaions",
+                    "image": "https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg",
+                    "price": "679.99",
+                    "rating": 4.4,
+                    "reviews": "1,781",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "link": "https://www.udemy.com/course/learn-python/",
+                    "title": "Learn Python: Python for Beginners",
+                    "author": "Abrar Hussain",
+                    "image": "https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg",
+                    "price": "319.99",
+                    "rating": 4.3,
+                    "reviews": "2,773",
+                    "bestseller": false
+                },
+                {
+                    "id": 5,
+                    "link": "https://www.udemy.com/course/python-beyond-the-basics-object-oriented-programming/",
+                    "title": "Python Beyond the Basics - Object-Oriented Programming",
+                    "author": "Infinite Skills",
+                    "image": "https://img-c.udemycdn.com/course/480x270/449532_2aa9_7.jpg",
+                    "price": "519.99",
+                    "rating": 4.4,
+                    "reviews": "2,930",
+                    "bestseller": false
+                },
+                {
+                    "id": 6,
+                    "link": "https://www.udemy.com/course/selenium-webdriver-and-python/",
+                    "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+                    "author": "Admas Kinfu",
+                    "image": "https://img-c.udemycdn.com/course/480x270/482754_7146_6.jpg",
+                    "price": "1,299.99",
+                    "rating": 4.7,
+                    "reviews": "1,813",
+                    "bestseller": true
+                },
+                {
+                    "id": 7,
+                    "link": "https://www.udemy.com/course/teach-your-kids-to-code/",
+                    "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
+                    "author": "Bryson Payne",
+                    "image": "https://img-c.udemycdn.com/course/480x270/519554_da68_6.jpg",
+                    "price": "319.99",
+                    "rating": 4.5,
+                    "reviews": "8,809",
+                    "bestseller": true
+                },
+                {
+                    "id": 8,
+                    "link": "https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/",
+                    "title": "Python for Data Structures, Algorithms, and Interviews!",
+                    "author": "Jose Portilla",
+                    "image": "https://img-c.udemycdn.com/course/480x270/535622_3bc0.jpg",
+                    "price": "1,299.99",
+                    "rating": 4.5,
+                    "reviews": "10.701",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "link": "https://www.udemy.com/course/automate/",
+                    "title": "Automate the Boring Stuff with Python Programming",
+                    "author": "Al Sweigart",
+                    "image": "https://img-c.udemycdn.com/course/480x270/543600_64d1_4.jpg",
+                    "price": "519.99",
+                    "rating": 4.7,
+                    "reviews": "101,703",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "link": "https://www.udemy.com/course/complete-python-bootcamp/",
+                    "title": "2022 Complete Python Bootcamp From Zero to Hero in Python",
+                    "author": "Jose Portilla",
+                    "image": "https://img-c.udemycdn.com/course/480x270/567828_67d0.jpg",
+                    "price": "729.99",
+                    "rating": 4.6,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         },
         {
-            "id": 2,
-            "title": "Microsoft Excel 2013  Advanced. Online Excel Training Course",
-            "headline": "Master Advanced Excel 2013 Features. Become A Expert And Learn To Use Excel Like A Pro With This Advanced Excel Training",
-            "rating": 4.4,
-            "image": "https://img-c.udemycdn.com/course/750x422/39292_b3f3_9.jpg",
-            "author": "Infinite Skills",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "Excel",
+            "header": "Analyze and visualize data with Excel",
+            "description": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+                    "headline": "Learn to Master Microsoft Excel In Easy To Follow Step-By-Step Training Course. Comes With Extensive Working Files",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/31535_e351_7.jpg",
+                    "author": "Infinite Skills",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "Microsoft Excel 2013  Advanced. Online Excel Training Course",
+                    "headline": "Master Advanced Excel 2013 Features. Become A Expert And Learn To Use Excel Like A Pro With This Advanced Excel Training",
+                    "rating": 4.4,
+                    "image": "https://img-c.udemycdn.com/course/750x422/39292_b3f3_9.jpg",
+                    "author": "Infinite Skills",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 3,
+                    "title": "Microsoft Excel - From Beginner to Expert in 6 Hours",
+                    "headline": "This Microsoft Excel class will make you a master of Microsoft Excel. The training uses Excel 2013 for Windows.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/49250_a658_8.jpg",
+                    "author": "Todd McLeod",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "title": "Sharper skills using Microsoft Excel 2010 for business",
+                    "headline": "Learn how to effectively use Microsoft Excel 2010 to modify, analyze and visualize business data",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/51078_15b7_8.jpg",
+                    "author": "Ulrika Hedlund",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 5,
+                    "title": "Learn Microsoft Excel 2013 - Advanced",
+                    "headline": "Insider Method: Learn Advanced Techniques for Microsoft Excel 2013 Fast - Without Lectures, Books, or Night Classes",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/56660_5635_3.jpg",
+                    "author": "Simon Sez IT",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 6,
+                    "title": "Excel 2013",
+                    "headline": "Online Excel training is designed to create a strong foundation for using the world's most popular business software.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/58489_e3be_5.jpg",
+                    "author": "Learnit Anytime",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 7,
+                    "title": "7 Steps To Excel Success - Excel Skills And Power Tips",
+                    "headline": "In Excel every step counts. Learn to apply 7 Steps To Excel Success. Excel 2007,Excel 2010, Excel 2013 - Excel 365.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/70720_1f9e_7.jpg",
+                    "author": "Billy Wigley, Stephanie Jhoy Tumulak",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 8,
+                    "title": "Advanced Excel - Beginner to Ninja level (includes Charts)",
+                    "headline": "Learn Excel Online for MIS Reporting, Data Cleaning, Data Analysis, Charting, Time-saver tricks with Examples",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/81744_6857_8.jpg",
+                    "author": "Rishabh Pugalia, Yoda Learning",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "title": "The Ultimate Microsoft Excel 2013 Training Bundle - 19 Hours",
+                    "headline": "The Drop-Dead Simple Method to Mastering Microsoft Excel 2013, Without Books, in Less Time Than You Thought",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/107606_ce50_5.jpg",
+                    "author": "Simon Sez IT",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "title": "Use Excel Like A Pro. Fast.",
+                    "headline": "Go from spreadsheet rookie to rockstar",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/109436_f634_13.jpg",
+                    "author": "Kieran Luke",
+                    "price": 49.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 11,
+                    "title": "Comprehensive Microsoft Excel",
+                    "headline": "Discover how to use Microsoft Excel with an easy to follow tutorial series that focuses on project based learning.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/109880_a49e_6.jpg",
+                    "author": "Jordan Hudgens",
+                    "price": 15.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 12,
+                    "title": "The Ultimate Excel Programmer Course",
+                    "headline": "Learn Excel VBA from Scratch with Dan Strong, Bestselling Excel Expert with Over 180K Students Worldwide!",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/164058_e914_2.jpg",
+                    "author": "Daniel Strong",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                }
+            ]
         },
         {
-            "id": 3,
-            "title": "Microsoft Excel - From Beginner to Expert in 6 Hours",
-            "headline": "This Microsoft Excel class will make you a master of Microsoft Excel. The training uses Excel 2013 for Windows.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/49250_a658_8.jpg",
-            "author": "Todd McLeod",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "Web Development",
+            "header": "Build websites and applications with Web Development",
+            "description": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Become a Certified HTML, CSS, JavaScript Web Developer",
+                    "headline": "Complete coverage of HTML, CSS, Javascript while you Earn Four Respected Certifications",
+                    "rating": 4.4,
+                    "image": "https://img-c.udemycdn.com/course/750x422/11475_9dac_14.jpg",
+                    "author": "Tech Learning Network, Mark Lassoff",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "The Complete 2020 Fullstack Web Developer Course",
+                    "headline": "Learn HTML5, CSS3, JavaScript, Python, Wagtail CMS, PHP & MySQL from scratch!",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/19332_6b49_15.jpg",
+                    "author": "Kalob Taulien",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 3,
+                    "title": "Introduction to Web Development",
+                    "headline": "Are you Interested in Learning Web Development? Enroll in this Free course for a Dynamic Introduction to the Profession!",
+                    "rating": 4.3,
+                    "image": "https://img-c.udemycdn.com/course/750x422/99986_6cb4_10.jpg",
+                    "author": "Tech Learning Network, Mark Lassoff",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "title": "Running a Web Development Business: The Complete Guide",
+                    "headline": "Learn how to start and grow a successful web development business. Get up & running and making sales in under a week.",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/369662_7246_2.jpg",
+                    "author": "Evan Kimbrell",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 5,
+                    "title": "Ultimate Web Designer & Web Developer Course",
+                    "headline": "Become a Full-Stack Web Designer in 2022 - Learn Everything from Web Design Fundamentals to Front-End Web Development",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/446134_383c_3.jpg",
+                    "author": "Brad Hussey",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 6,
+                    "title": "Introduction to Programming",
+                    "headline": "Professional Coding Skills for Beginners",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/530308_8ca0_3.jpg",
+                    "author": "Tech Learning Network, Mark Lassoff",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 7,
+                    "title": "The Complete 2022 Web Development Course - Build 15 Projects",
+                    "headline": "The only course you need to become a full-stack web developer. Covers HTML5, CSS3, JS, ES6, Node, APIs, Mobile & more!",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/548278_b005_9.jpg",
+                    "author": "Development Island (UK)",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 8,
+                    "title": "The Web Developer Bootcamp 2022",
+                    "headline": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/625204_436a_3.jpg",
+                    "author": "Colt Steele",
+                    "price": 34.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "title": "The Complete Web Developer Course 2.0",
+                    "headline": "Learn Web Development by building 25 websites and mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL & more!",
+                    "rating": 4.4,
+                    "image": "https://img-c.udemycdn.com/course/750x422/764164_de03_2.jpg",
+                    "author": "Rob Percival, Codestars by Rob Percival",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "title": "Build Responsive Website Using HTML5, CSS3, JS And Bootstrap",
+                    "headline": "Learn HTML5, CSS3, JavaScript, jQuery and Bootstrap framework by building a modern looking responsive website.",
+                    "rating": 4.3,
+                    "image": "https://img-c.udemycdn.com/course/750x422/787236_67ff_3.jpg",
+                    "author": "Irfan Dayan",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         },
         {
-            "id": 4,
-            "title": "Sharper skills using Microsoft Excel 2010 for business",
-            "headline": "Learn how to effectively use Microsoft Excel 2010 to modify, analyze and visualize business data",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/51078_15b7_8.jpg",
-            "author": "Ulrika Hedlund",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "JavaScript",
+            "header": "Grow your software development skills with JavaScript",
+            "description": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Javascript for Beginners",
+                    "headline": "Learn javascript online and supercharge your web design with this Javascript for beginners training course.",
+                    "rating": 4.4,
+                    "image": "https://img-c.udemycdn.com/course/750x422/8324_fa84_13.jpg",
+                    "author": "Tech Learning Network",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "1 Hour JavaScript",
+                    "headline": "Learn how to code in JavaScript in 1 hour. This class is set up for complete beginners!",
+                    "rating": 4.3,
+                    "image": "https://img-c.udemycdn.com/course/750x422/63612_8797_4.jpg",
+                    "author": "John Bura",
+                    "price": 16.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 3,
+                    "title": "JavaScript: Understanding the Weird Parts",
+                    "headline": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/364426_2991_6.jpg",
+                    "author": "Anthony Alicea",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "title": "Javascript for Beginners Learn by Doing Practical Exercises",
+                    "headline": "JavaScript for Beginners : Work closely with me doing exercises & learn more. I make Javascript easy for you guaranteed.",
+                    "rating": 4.3,
+                    "image": "https://img-c.udemycdn.com/course/750x422/405818_aa3f_3.jpg",
+                    "author": "Edwin Diaz, Coding Faculty Solutions",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 5,
+                    "title": "JavaScript from Beginner to Expert",
+                    "headline": "Become a JavaScript expert in 30 days, even if you are a JS beginner. Become a front-end developer of websites in JS",
+                    "rating": 4.2,
+                    "image": "https://img-c.udemycdn.com/course/750x422/426196_3cb8_4.jpg",
+                    "author": "Arkadiusz Włodarczyk",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 6,
+                    "title": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
+                    "headline": "JavaScript coding course for beginners of all ages, build your own interactive games and apps in JavaScript!",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/584494_f309_6.jpg",
+                    "author": "Bryson Payne",
+                    "price": 16.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 7,
+                    "title": "Advanced Javascript",
+                    "headline": "In only seven hours you will learn enough javascript to transform from a Junior JS Dev into a Senior JS Guru",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/670034_ce04_6.jpg",
+                    "author": "Asim Hussain",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 8,
+                    "title": "The Complete JavaScript Course For Web Development Beginners",
+                    "headline": "In this course students will learn the basics of JavaScript and beyond to help them in their web development needs",
+                    "rating": 4.2,
+                    "image": "https://img-c.udemycdn.com/course/750x422/695656_4395_7.jpg",
+                    "author": "Joe Parys, Ashutosh Pawar, Joe Parys Support",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "title": "The Complete JavaScript Course 2022: From Zero to Expert!",
+                    "headline": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/851712_fc61_6.jpg",
+                    "author": "Jonas Schmedtmann",
+                    "price": 24.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 10,
+                    "title": "JavaScript Beginner Bootcamp (2022)",
+                    "headline": "JavaScript for Beginners: Projects based learning, whiteboard animations, coding in the browser and quizzes.",
+                    "rating": 4.4,
+                    "image": "https://img-c.udemycdn.com/course/750x422/860812_f16e_23.jpg",
+                    "author": "Rob Merrill",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         },
         {
-            "id": 5,
-            "title": "Learn Microsoft Excel 2013 - Advanced",
-            "headline": "Insider Method: Learn Advanced Techniques for Microsoft Excel 2013 Fast - Without Lectures, Books, or Night Classes",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/56660_5635_3.jpg",
-            "author": "Simon Sez IT",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "Data Science",
+            "header": "Lead data-driven decisions with Data Science",
+            "description": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
+                    "headline": "Learn Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization and more!",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/513244_b831_4.jpg",
+                    "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "Machine Learning, Data Science and Deep Learning with Python",
+                    "headline": "Complete hands-on machine learning tutorial with data science, Tensorflow, artificial intelligence, and neural networks",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/671576_a272_4.jpg",
+                    "author": "Frank Kane, Sundog Education",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 3,
+                    "title": "Data Science: Deep Learning and Neural Networks in Python",
+                    "headline": "The MOST in-depth look at neural network theory for machine learning, with both pure Python and Tensorflow code",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/713104_d4cb.jpg",
+                    "author": "Lazy Programmer Inc.",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "title": "R Programming A-Z™: R For Data Science With Real Exercises!",
+                    "headline": "Learn Programming In R And R Studio. Data Analytics, Data Science, Statistical Analysis, Packages, Functions, GGPlot2",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/765242_2578_6.jpg",
+                    "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 5,
+                    "title": "Data Science and Machine Learning Bootcamp with R",
+                    "headline": "Learn how to use the R programming language for data science and machine learning and data visualization!",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/821726_8071.jpg",
+                    "author": "Jose Portilla",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 6,
+                    "title": "R Programming: Advanced Analytics In R For Data Science",
+                    "headline": "Take Your R & R Studio Skills To The Next Level. Data Analytics, Data Science, Statistical Analysis in Business, GGPlot2",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/860148_4f31_7.jpg",
+                    "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 7,
+                    "title": "Python for Data Science and Machine Learning Bootcamp",
+                    "headline": "Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/903744_8eb2.jpg",
+                    "author": "Jose Portilla",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 8,
+                    "title": "Python A-Z™: Python For Data Science With Real Exercises!",
+                    "headline": "Programming In Python For Data Analytics And Data Science. Learn Statistical Analysis, Data Mining And Visualization",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/913448_e6e2_4.jpg",
+                    "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "title": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+                    "headline": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/950390_270f_3.jpg",
+                    "author": "Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "title": "Introduction to Machine Learning for Data Science",
+                    "headline": "A primer on Machine Learning for Data Science.  Revealed for everyday people, by the Backyard Data Scientist.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/971154_6799_2.jpg",
+                    "author": "David Valentine",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         },
         {
-            "id": 6,
-            "title": "Excel 2013",
-            "headline": "Online Excel training is designed to create a strong foundation for using the world's most popular business software.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/58489_e3be_5.jpg",
-            "author": "Learnit Anytime",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
+            "name": "AWS Certification",
+            "header": "Become an expert in cloud computing with AWS Certification",
+            "description": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we’ve got the course for you.",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Amazon Web Services (AWS) Certified 2022 - 4 Certifications!",
+                    "headline": "Videos, labs & practice exams - AWS Certified (Solutions Architect, Developer, SysOps Administrator, Cloud Practitioner)",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1047846_83ef_29.jpg",
+                    "author": "BackSpace Academy, Paul Coady",
+                    "price": 29.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "AWS Certified Security Specialty 2022",
+                    "headline": "All you need to master AWS Certified Security Specialty certification.",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1102458_d6e6_2.jpg",
+                    "author": "Zeal Vora",
+                    "price": 34.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 3,
+                    "title": "Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
+                    "headline": "AWS Associate Exam - Master Foundations. Join Live Study Group Q&A!",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1135330_0e31_10.jpg",
+                    "author": "Chandra Lingam",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 4,
+                    "title": "Practice Test AWS Solutions Architect Associate SAA C03",
+                    "headline": "[Updated] In One Hour, You will Gain Substantial Insight to Pass the Certification Exam. Join Live Study Group Q&A!",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1162310_5ee3_4.jpg",
+                    "author": "Chandra Lingam",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 5,
+                    "title": "AWS Certified Solution Architect - Associate",
+                    "headline": "Includes 2 Practice Tests - 130 Practice Test Questions",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1236626_b910_4.jpg",
+                    "author": "Alan Rodrigues",
+                    "price": 16.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 6,
+                    "title": "AWS Certified Solutions Architect - Associate 2022",
+                    "headline": "Beginner to Advanced",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1328072_e082_5.jpg",
+                    "author": "Zeal Vora",
+                    "price": 29.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 7,
+                    "title": "The Ultimate AWS Certified Solutions Architect - Associate",
+                    "headline": "Pass the AWS certification exam by mastering the most important AWS services: IAM, EC2, Route 53 (DNS), VPC, and RDS.",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1343886_9003_3.jpg",
+                    "author": "Bernard Golden",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 8,
+                    "title": "AWS Certified Cloud Practitioner 2022",
+                    "headline": "Beginner to Advanced",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1360446_f69e.jpg",
+                    "author": "Zeal Vora",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 9,
+                    "title": "AWS Certified Solutions Architect - Professional 2022",
+                    "headline": "All you need to master AWS Solutions Architect - Professional certification",
+                    "rating": 4.5,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1425762_36e3.jpg",
+                    "author": "Zeal Vora",
+                    "price": 34.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "title": "AWS Certified Cloud Practitioner - Updated 2020",
+                    "headline": "Pass your Cloud Practitioner certification Exam. Includes 175 practice questions",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1477998_1fa5_3.jpg",
+                    "author": "Alan Rodrigues",
+                    "price": 14.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         },
         {
-            "id": 7,
-            "title": "7 Steps To Excel Success - Excel Skills And Power Tips",
-            "headline": "In Excel every step counts. Learn to apply 7 Steps To Excel Success. Excel 2007,Excel 2010, Excel 2013 - Excel 365.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/70720_1f9e_7.jpg",
-            "author": "Billy Wigley, Stephanie Jhoy Tumulak",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 8,
-            "title": "Advanced Excel - Beginner to Ninja level (includes Charts)",
-            "headline": "Learn Excel Online for MIS Reporting, Data Cleaning, Data Analysis, Charting, Time-saver tricks with Examples",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/81744_6857_8.jpg",
-            "author": "Rishabh Pugalia, Yoda Learning",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 9,
-            "title": "The Ultimate Microsoft Excel 2013 Training Bundle - 19 Hours",
-            "headline": "The Drop-Dead Simple Method to Mastering Microsoft Excel 2013, Without Books, in Less Time Than You Thought",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/107606_ce50_5.jpg",
-            "author": "Simon Sez IT",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 10,
-            "title": "Use Excel Like A Pro. Fast.",
-            "headline": "Go from spreadsheet rookie to rockstar",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/109436_f634_13.jpg",
-            "author": "Kieran Luke",
-            "price": 49.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 11,
-            "title": "Comprehensive Microsoft Excel",
-            "headline": "Discover how to use Microsoft Excel with an easy to follow tutorial series that focuses on project based learning.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/109880_a49e_6.jpg",
-            "author": "Jordan Hudgens",
-            "price": 15.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 12,
-            "title": "The Ultimate Excel Programmer Course",
-            "headline": "Learn Excel VBA from Scratch with Dan Strong, Bestselling Excel Expert with Over 180K Students Worldwide!",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/164058_e914_2.jpg",
-            "author": "Daniel Strong",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": true
+            "name": "Drawing",
+            "header": "Expand your creative skillset with Drawing",
+            "description": "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going.",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "The Secrets to Drawing",
+                    "headline": "A comprehensive video and ebook course designed for people wanting to learn the core concepts of drawing.",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/137230_76b8_2.jpg",
+                    "author": "Matthew Fussell",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 2,
+                    "title": "Drawing and Sketching for Beginners",
+                    "headline": "Learn how to sketch and draw with easy to follow videos and exercises. No experience required!",
+                    "rating": 4.3,
+                    "image": "https://img-c.udemycdn.com/course/750x422/382394_63fa_7.jpg",
+                    "author": "Robin Slee | Art | Illustration | iPad | Software Development",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 3,
+                    "title": "Building Confidence Through Drawing: Art for Beginners",
+                    "headline": "22 Drawing Lessons for Beginners. Course is perfect for engaging after-school activities or homeschool art projects.",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/633084_1961_2.jpg",
+                    "author": "Em Winn",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 4,
+                    "title": "Art for Kids & Beginners: 15 Easy Drawing & Painting Lessons",
+                    "headline": "Students Will Learn How to Draw & Watercolor Paint 15 Cute Animals Step-By-Step. For Beginners of All Ages and Abilities",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/670050_69ff_3.jpg",
+                    "author": "Em Winn",
+                    "price": 15.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 5,
+                    "title": "The Ultimate Drawing Course - Beginner to Advanced",
+                    "headline": "Learn the #1 most important building block of all art, Drawing. This course will teach you how to draw like a pro!",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/874012_c7f2_3.jpg",
+                    "author": "Jaysen Batchelor, Quinton Batchelor",
+                    "price": 19.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 6,
+                    "title": "The Art & Science of Drawing / BASIC SKILLS",
+                    "headline": "Drawing is not a talent. It's a skill anyone can learn.",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1045092_8c2f_2.jpg",
+                    "author": "Brent Eviston",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 7,
+                    "title": "How to Draw and Sketch for Absolute Beginners pt 1",
+                    "headline": "Learn the Basics of Sketching and Drawing",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1047436_97b3.jpg",
+                    "author": "Rich Graysonn",
+                    "price": 18.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 8,
+                    "title": "The Art & Science of Drawing / DYNAMIC MARK MAKING",
+                    "headline": "Create compelling drawings using expressive mark making.",
+                    "rating": 4.8,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1065192_abb5.jpg",
+                    "author": "Brent Eviston",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": true
+                },
+                {
+                    "id": 9,
+                    "title": "The Art & Science of Drawing / FORM & SPACE",
+                    "headline": "Learn to draw in 3-Dimensions",
+                    "rating": 4.7,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1071120_b439_2.jpg",
+                    "author": "Brent Eviston",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                },
+                {
+                    "id": 10,
+                    "title": "The Art & Science of Drawing / MEASURING & PROPORTION",
+                    "headline": "Dramatically increase the accuracy of your drawings.",
+                    "rating": 4.6,
+                    "image": "https://img-c.udemycdn.com/course/750x422/1271412_a24c_2.jpg",
+                    "author": "Brent Eviston",
+                    "price": 17.99,
+                    "reviews": "427,994",
+                    "bestseller": false
+                }
+            ]
         }
     ]
-  },
-  {
-    "name": "Web Development",
-    "header": "Build websites and applications with Web Development",
-    "description": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
-    "courses": [
-        {
-            "id": 1,
-            "title": "Become a Certified HTML, CSS, JavaScript Web Developer",
-            "headline": "Complete coverage of HTML, CSS, Javascript while you Earn Four Respected Certifications",
-            "rating": 4.4,
-            "image": "https://img-c.udemycdn.com/course/750x422/11475_9dac_14.jpg",
-            "author": "Tech Learning Network, Mark Lassoff",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 2,
-            "title": "The Complete 2020 Fullstack Web Developer Course",
-            "headline": "Learn HTML5, CSS3, JavaScript, Python, Wagtail CMS, PHP & MySQL from scratch!",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/19332_6b49_15.jpg",
-            "author": "Kalob Taulien",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 3,
-            "title": "Introduction to Web Development",
-            "headline": "Are you Interested in Learning Web Development? Enroll in this Free course for a Dynamic Introduction to the Profession!",
-            "rating": 4.3,
-            "image": "https://img-c.udemycdn.com/course/750x422/99986_6cb4_10.jpg",
-            "author": "Tech Learning Network, Mark Lassoff",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 4,
-            "title": "Running a Web Development Business: The Complete Guide",
-            "headline": "Learn how to start and grow a successful web development business. Get up & running and making sales in under a week.",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/369662_7246_2.jpg",
-            "author": "Evan Kimbrell",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 5,
-            "title": "Ultimate Web Designer & Web Developer Course",
-            "headline": "Become a Full-Stack Web Designer in 2022 - Learn Everything from Web Design Fundamentals to Front-End Web Development",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/446134_383c_3.jpg",
-            "author": "Brad Hussey",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 6,
-            "title": "Introduction to Programming",
-            "headline": "Professional Coding Skills for Beginners",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/530308_8ca0_3.jpg",
-            "author": "Tech Learning Network, Mark Lassoff",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 7,
-            "title": "The Complete 2022 Web Development Course - Build 15 Projects",
-            "headline": "The only course you need to become a full-stack web developer. Covers HTML5, CSS3, JS, ES6, Node, APIs, Mobile & more!",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/548278_b005_9.jpg",
-            "author": "Development Island (UK)",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 8,
-            "title": "The Web Developer Bootcamp 2022",
-            "headline": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/625204_436a_3.jpg",
-            "author": "Colt Steele",
-            "price": 34.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 9,
-            "title": "The Complete Web Developer Course 2.0",
-            "headline": "Learn Web Development by building 25 websites and mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL & more!",
-            "rating": 4.4,
-            "image": "https://img-c.udemycdn.com/course/750x422/764164_de03_2.jpg",
-            "author": "Rob Percival, Codestars by Rob Percival",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 10,
-            "title": "Build Responsive Website Using HTML5, CSS3, JS And Bootstrap",
-            "headline": "Learn HTML5, CSS3, JavaScript, jQuery and Bootstrap framework by building a modern looking responsive website.",
-            "rating": 4.3,
-            "image": "https://img-c.udemycdn.com/course/750x422/787236_67ff_3.jpg",
-            "author": "Irfan Dayan",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        }
-    ]
-  },
-  {
-    "name": "JavaScript",
-    "header": "Grow your software development skills with JavaScript", 
-    "description": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build",
-    "courses": [
-        {
-            "id": 1,
-            "title": "Javascript for Beginners",
-            "headline": "Learn javascript online and supercharge your web design with this Javascript for beginners training course.",
-            "rating": 4.4,
-            "image": "https://img-c.udemycdn.com/course/750x422/8324_fa84_13.jpg",
-            "author": "Tech Learning Network",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 2,
-            "title": "1 Hour JavaScript",
-            "headline": "Learn how to code in JavaScript in 1 hour. This class is set up for complete beginners!",
-            "rating": 4.3,
-            "image": "https://img-c.udemycdn.com/course/750x422/63612_8797_4.jpg",
-            "author": "John Bura",
-            "price": 16.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 3,
-            "title": "JavaScript: Understanding the Weird Parts",
-            "headline": "An advanced JavaScript course for everyone! Scope, closures, prototypes, 'this', build your own framework, and more.",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/364426_2991_6.jpg",
-            "author": "Anthony Alicea",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 4,
-            "title": "Javascript for Beginners Learn by Doing Practical Exercises",
-            "headline": "JavaScript for Beginners : Work closely with me doing exercises & learn more. I make Javascript easy for you guaranteed.",
-            "rating": 4.3,
-            "image": "https://img-c.udemycdn.com/course/750x422/405818_aa3f_3.jpg",
-            "author": "Edwin Diaz, Coding Faculty Solutions",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 5,
-            "title": "JavaScript from Beginner to Expert",
-            "headline": "Become a JavaScript expert in 30 days, even if you are a JS beginner. Become a front-end developer of websites in JS",
-            "rating": 4.2,
-            "image": "https://img-c.udemycdn.com/course/750x422/426196_3cb8_4.jpg",
-            "author": "Arkadiusz Włodarczyk",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 6,
-            "title": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
-            "headline": "JavaScript coding course for beginners of all ages, build your own interactive games and apps in JavaScript!",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/584494_f309_6.jpg",
-            "author": "Bryson Payne",
-            "price": 16.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 7,
-            "title": "Advanced Javascript",
-            "headline": "In only seven hours you will learn enough javascript to transform from a Junior JS Dev into a Senior JS Guru",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/670034_ce04_6.jpg",
-            "author": "Asim Hussain",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 8,
-            "title": "The Complete JavaScript Course For Web Development Beginners",
-            "headline": "In this course students will learn the basics of JavaScript and beyond to help them in their web development needs",
-            "rating": 4.2,
-            "image": "https://img-c.udemycdn.com/course/750x422/695656_4395_7.jpg",
-            "author": "Joe Parys, Ashutosh Pawar, Joe Parys Support",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 9,
-            "title": "The Complete JavaScript Course 2022: From Zero to Expert!",
-            "headline": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/851712_fc61_6.jpg",
-            "author": "Jonas Schmedtmann",
-            "price": 24.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 10,
-            "title": "JavaScript Beginner Bootcamp (2022)",
-            "headline": "JavaScript for Beginners: Projects based learning, whiteboard animations, coding in the browser and quizzes.",
-            "rating": 4.4,
-            "image": "https://img-c.udemycdn.com/course/750x422/860812_f16e_23.jpg",
-            "author": "Rob Merrill",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": false
-        }
-    ]
-  },
-  {
-    "name": "Data Science",
-    "header": "Lead data-driven decisions with Data Science",
-    "description": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.",
-    "courses": [
-        {
-            "id": 1,
-            "title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
-            "headline": "Learn Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization and more!",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/513244_b831_4.jpg",
-            "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 2,
-            "title": "Machine Learning, Data Science and Deep Learning with Python",
-            "headline": "Complete hands-on machine learning tutorial with data science, Tensorflow, artificial intelligence, and neural networks",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/671576_a272_4.jpg",
-            "author": "Frank Kane, Sundog Education",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 3,
-            "title": "Data Science: Deep Learning and Neural Networks in Python",
-            "headline": "The MOST in-depth look at neural network theory for machine learning, with both pure Python and Tensorflow code",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/713104_d4cb.jpg",
-            "author": "Lazy Programmer Inc.",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 4,
-            "title": "R Programming A-Z™: R For Data Science With Real Exercises!",
-            "headline": "Learn Programming In R And R Studio. Data Analytics, Data Science, Statistical Analysis, Packages, Functions, GGPlot2",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/765242_2578_6.jpg",
-            "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 5,
-            "title": "Data Science and Machine Learning Bootcamp with R",
-            "headline": "Learn how to use the R programming language for data science and machine learning and data visualization!",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/821726_8071.jpg",
-            "author": "Jose Portilla",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 6,
-            "title": "R Programming: Advanced Analytics In R For Data Science",
-            "headline": "Take Your R & R Studio Skills To The Next Level. Data Analytics, Data Science, Statistical Analysis in Business, GGPlot2",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/860148_4f31_7.jpg",
-            "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 7,
-            "title": "Python for Data Science and Machine Learning Bootcamp",
-            "headline": "Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/903744_8eb2.jpg",
-            "author": "Jose Portilla",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 8,
-            "title": "Python A-Z™: Python For Data Science With Real Exercises!",
-            "headline": "Programming In Python For Data Analytics And Data Science. Learn Statistical Analysis, Data Mining And Visualization",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/913448_e6e2_4.jpg",
-            "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 9,
-            "title": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
-            "headline": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/950390_270f_3.jpg",
-            "author": "Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 10,
-            "title": "Introduction to Machine Learning for Data Science",
-            "headline": "A primer on Machine Learning for Data Science.  Revealed for everyday people, by the Backyard Data Scientist.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/971154_6799_2.jpg",
-            "author": "David Valentine",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        }
-    ]
-  },
-  {
-    "name": "AWS Certification",
-    "header": "Become an expert in cloud computing with AWS Certification",
-    "description": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we’ve got the course for you.",
-    "courses": [
-        {
-            "id": 1,
-            "title": "Amazon Web Services (AWS) Certified 2022 - 4 Certifications!",
-            "headline": "Videos, labs & practice exams - AWS Certified (Solutions Architect, Developer, SysOps Administrator, Cloud Practitioner)",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/1047846_83ef_29.jpg",
-            "author": "BackSpace Academy, Paul Coady",
-            "price": 29.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 2,
-            "title": "AWS Certified Security Specialty 2022",
-            "headline": "All you need to master AWS Certified Security Specialty certification.",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1102458_d6e6_2.jpg",
-            "author": "Zeal Vora",
-            "price": 34.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 3,
-            "title": "Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
-            "headline": "AWS Associate Exam - Master Foundations. Join Live Study Group Q&A!",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/1135330_0e31_10.jpg",
-            "author": "Chandra Lingam",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 4,
-            "title": "Practice Test AWS Solutions Architect Associate SAA C03",
-            "headline": "[Updated] In One Hour, You will Gain Substantial Insight to Pass the Certification Exam. Join Live Study Group Q&A!",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1162310_5ee3_4.jpg",
-            "author": "Chandra Lingam",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 5,
-            "title": "AWS Certified Solution Architect - Associate",
-            "headline": "Includes 2 Practice Tests - 130 Practice Test Questions",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/1236626_b910_4.jpg",
-            "author": "Alan Rodrigues",
-            "price": 16.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 6,
-            "title": "AWS Certified Solutions Architect - Associate 2022",
-            "headline": "Beginner to Advanced",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1328072_e082_5.jpg",
-            "author": "Zeal Vora",
-            "price": 29.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 7,
-            "title": "The Ultimate AWS Certified Solutions Architect - Associate",
-            "headline": "Pass the AWS certification exam by mastering the most important AWS services: IAM, EC2, Route 53 (DNS), VPC, and RDS.",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/1343886_9003_3.jpg",
-            "author": "Bernard Golden",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 8,
-            "title": "AWS Certified Cloud Practitioner 2022",
-            "headline": "Beginner to Advanced",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1360446_f69e.jpg",
-            "author": "Zeal Vora",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 9,
-            "title": "AWS Certified Solutions Architect - Professional 2022",
-            "headline": "All you need to master AWS Solutions Architect - Professional certification",
-            "rating": 4.5,
-            "image": "https://img-c.udemycdn.com/course/750x422/1425762_36e3.jpg",
-            "author": "Zeal Vora",
-            "price": 34.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 10,
-            "title": "AWS Certified Cloud Practitioner - Updated 2020",
-            "headline": "Pass your Cloud Practitioner certification Exam. Includes 175 practice questions",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1477998_1fa5_3.jpg",
-            "author": "Alan Rodrigues",
-            "price": 14.99,
-            "reviews": "427,994",
-            "bestseller": false
-        }
-    ]
-  },
-  {
-    "name": "Drawing",
-    "header": "Expand your creative skillset with Drawing",
-    "description": "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going.",
-    "courses": [
-        {
-            "id": 1,
-            "title": "The Secrets to Drawing",
-            "headline": "A comprehensive video and ebook course designed for people wanting to learn the core concepts of drawing.",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/137230_76b8_2.jpg",
-            "author": "Matthew Fussell",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 2,
-            "title": "Drawing and Sketching for Beginners",
-            "headline": "Learn how to sketch and draw with easy to follow videos and exercises. No experience required!",
-            "rating": 4.3,
-            "image": "https://img-c.udemycdn.com/course/750x422/382394_63fa_7.jpg",
-            "author": "Robin Slee | Art | Illustration | iPad | Software Development",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 3,
-            "title": "Building Confidence Through Drawing: Art for Beginners",
-            "headline": "22 Drawing Lessons for Beginners. Course is perfect for engaging after-school activities or homeschool art projects.",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/633084_1961_2.jpg",
-            "author": "Em Winn",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 4,
-            "title": "Art for Kids & Beginners: 15 Easy Drawing & Painting Lessons",
-            "headline": "Students Will Learn How to Draw & Watercolor Paint 15 Cute Animals Step-By-Step. For Beginners of All Ages and Abilities",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/670050_69ff_3.jpg",
-            "author": "Em Winn",
-            "price": 15.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 5,
-            "title": "The Ultimate Drawing Course - Beginner to Advanced",
-            "headline": "Learn the #1 most important building block of all art, Drawing. This course will teach you how to draw like a pro!",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/874012_c7f2_3.jpg",
-            "author": "Jaysen Batchelor, Quinton Batchelor",
-            "price": 19.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 6,
-            "title": "The Art & Science of Drawing / BASIC SKILLS",
-            "headline": "Drawing is not a talent. It's a skill anyone can learn.",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/1045092_8c2f_2.jpg",
-            "author": "Brent Eviston",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 7,
-            "title": "How to Draw and Sketch for Absolute Beginners pt 1",
-            "headline": "Learn the Basics of Sketching and Drawing",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1047436_97b3.jpg",
-            "author": "Rich Graysonn",
-            "price": 18.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 8,
-            "title": "The Art & Science of Drawing / DYNAMIC MARK MAKING",
-            "headline": "Create compelling drawings using expressive mark making.",
-            "rating": 4.8,
-            "image": "https://img-c.udemycdn.com/course/750x422/1065192_abb5.jpg",
-            "author": "Brent Eviston",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": true
-        },
-        {
-            "id": 9,
-            "title": "The Art & Science of Drawing / FORM & SPACE",
-            "headline": "Learn to draw in 3-Dimensions",
-            "rating": 4.7,
-            "image": "https://img-c.udemycdn.com/course/750x422/1071120_b439_2.jpg",
-            "author": "Brent Eviston",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        },
-        {
-            "id": 10,
-            "title": "The Art & Science of Drawing / MEASURING & PROPORTION",
-            "headline": "Dramatically increase the accuracy of your drawings.",
-            "rating": 4.6,
-            "image": "https://img-c.udemycdn.com/course/750x422/1271412_a24c_2.jpg",
-            "author": "Brent Eviston",
-            "price": 17.99,
-            "reviews": "427,994",
-            "bestseller": false
-        }
-    ]
-  }
-]
+}
