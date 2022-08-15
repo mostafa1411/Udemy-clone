@@ -10,11 +10,6 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.sm-screen-only {
-    display: none;
-    
-}
-
 .logo {
     width: 70px;
     height: 30px;
@@ -31,8 +26,8 @@ body {
 }
 
 .login-btn {
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 11px;
+    font-weight: 600;
     padding: 5px;
     cursor: pointer;
     background-color: transparent;
@@ -43,8 +38,8 @@ body {
 }
 
 .signup-btn {
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 11px;
+    font-weight: 600;
     padding: 5px;
     cursor: pointer;
     background-color: #1c1d1f;
@@ -55,34 +50,33 @@ body {
 }
 
 .lang-btn {
-    padding-top: 2px;
     position: relative;
-    top: 3px;
+    top: 2px;
     align-items: center;
     cursor: pointer;
     background-color: transparent;
     color: 1c1d1f;
     border: 1px solid #1c1d1f;
     width: 30px;
-    height: 30px;
+    height: 29px;
 }
 
 .signup-btn:hover {
     background-color: #000;
 }
 
-.login-btn:hover, .lang-btn:hover, .content > .btn:hover {
+.login-btn:hover, .lang-btn:hover, .content .explore-btn:hover {
     background-color: #eee;
 }
 
 .shopping-img {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 .lang-img {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
 }
 
 .navbar a {
@@ -90,29 +84,22 @@ body {
     color: #1c1d1f;
     font-weight: 400;
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .navbar a:hover {
-    color: #8f00a2;
-}
-
-.container a {
-    font-size: 12px;
-    font-weight: 400;
-    position: relative;
-    top: 5px;
+    color: #5624d0;
 }
 
 .form {
     width: 40%;
-    flex-shrink: 2;
 }
 
 .search-form {
     border: 1px solid #1c1d1f;
     border-radius: 100px;
-    background-color: #eee;
+    background-color: #f7f9fa;
 }
 
 .search-form > label {
@@ -124,6 +111,8 @@ body {
     background-color: transparent;
     outline: none;
     border: none;
+    width: 100%;
+    font-size: 10px;
 }
 
 .search-btn {
@@ -145,14 +134,15 @@ body {
 .header {
     margin-top: 3px;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
+    height: auto;
     background-image: url("../img/header_background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header .container:not(.sm-screen-only) {
+.header-banner {
     padding: 20px 10px 20px 20px;
     width: 35%;
     height: auto;
@@ -163,25 +153,29 @@ body {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.header h1 {
+.header-banner h1 {
     font-family: serif;
     font-size: 3vw;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 
-.header p {
+.header-banner p {
     font-size: 1.5vw;
-}
-
-.courses > h1 {
-    font-family: serif;
-    font-size: 30px;
-    margin: 5px 0;
+    color: #1c1d1f;
+    font-family: Helvetica;
 }
 
 .courses {
     margin: 10px;
     padding: 40px 20px;
+}
+
+.courses > h1 {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0;
 }
 
 .courses-list {
@@ -213,13 +207,20 @@ body {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.content > p {
+.content .heading {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 19px;
+}
+
+.content .description {
     font-size: 12px;
     max-width: 600px;
     margin: 6px 0 12px;
 }
 
-.content > .btn {
+.content .explore-btn {
     font-size: 11px;
     font-weight: 800;
     padding: 0 10px;
@@ -325,93 +326,51 @@ body {
     font-weight: 800;
 }
 
-@media only screen and (max-width: 855px) {
-    .navbar .business {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 710px) {
-    .navbar .teach {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 590px) {
-    .navbar .categories {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .navbar .btns, .navbar .form {
-        display: none;
-    }
-
-    .navbar .menu {
-        display: unset;
-    }
-}
-
 @media only screen and (max-width: 380px) {
-    .big-screen-only {
-        display: none;
-    }
-
-    .navbar {
-        justify-content: space-between;
-        flex-direction: row;
-    }
-
     .navbar .logo {
         margin-right: 30px;
     }
 
-    .navbar .menu {
-        display: unset;
-        padding-top: 5px;
-        font-size: 17px;
-        font-weight: 500;
+    .shopping {
+        display: none;
     }
 
-    .header .sm-screen-only {
-        display: unset;
+    .course-card {
         width: 100%;
     }
+}
 
+@media only screen and (max-width: 570px) {
     .header {
         background-image: none;
         display: flex;
         flex-direction: column;
     }
-    
-    .header img {
+
+    .header-img img {
         width: 100%;
         height: auto;
     }
 
-    .header .container:not(.sm-screen-only) {
+    .header-banner {
         padding: 0 0 0 20px;
         width: 100%;
         position: unset;
         background-color: #fff;
-        box-shadow: unset;
+        box-shadow: none;
     }
 
-    .header h1, .courses > h1 {
+    .header-banner h1,
+    .courses > h1 {
         font-size: 20px;
         margin-bottom: 5px;
     }
 
-    .header p {
+    .header-banner p {
         font-size: 12px;
     }
 
     .newline {
         display: inline;
-    }
-
-    .course-card {
-        width: 100%;
     }
 }

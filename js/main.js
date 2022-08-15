@@ -26,7 +26,7 @@ const renderCourses = (data) => {
 
     // explore button
     let exploreBtn = document.createElement("button");
-    exploreBtn.classList.add("btn");
+    exploreBtn.classList.add("explore-btn");
     exploreBtn.innerHTML = `Explore ${data.name}`;
 
 
