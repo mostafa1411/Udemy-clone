@@ -32,7 +32,7 @@ const renderCourses = (data) => {
 
     // cards
     let cards = document.createElement("div");
-    cards.classList.add("cards");
+    cards.classList.add("cards", "carousel-inner");
 
     for (let i = 0; i < data.courses.length; i++) {
         // create elements
