@@ -26,11 +26,11 @@ body {
     justify-content: space-between;
 }
 
-.navbar > div {
+.navbar>div {
     margin: 0 10px;
 }
 
-.navbar > div:not(.form) {
+.navbar>div:not(.form) {
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -82,7 +82,9 @@ body {
     background-color: #000;
 }
 
-.navbar .login-btn:hover, .lang-btn:hover, .content .explore-btn:hover {
+.navbar .login-btn:hover,
+.lang-btn:hover,
+.content .explore-btn:hover {
     background-color: #eee;
 }
 
@@ -112,7 +114,7 @@ body {
     align-items: center;
 }
 
-.search-form > label {
+.search-form>label {
     margin: 3px 6px;
     display: flex;
 }
@@ -142,8 +144,8 @@ body {
 }
 
 .header {
-    margin-top: 3px;
-    width: 100%;
+    width: 80%;
+    margin: 3px auto 0;
     min-height: 50vh;
     height: auto;
     background-image: url("../img/header_background.jpg");
@@ -157,21 +159,21 @@ body {
     width: 35%;
     height: auto;
     position: relative;
-    top: 50px;
-    left: 60px;
+    top: 60px;
+    left: 70px;
     background-color: #fff;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header-banner h1 {
     font-family: serif;
-    font-size: 3vw;
+    font-size: max(2.5vw, 30px);
     font-weight: 800;
     margin-bottom: 5px;
 }
 
 .header-banner p {
-    font-size: 1.5vw;
+    font-size: max(1.2vw, 15px);
     color: #1c1d1f;
     font-family: Helvetica;
 }
@@ -182,22 +184,22 @@ body {
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.courses > h1 {
+.courses>h1 {
     font-family: serif;
-    font-size: 2.3vw;
+    font-size: max(2.3vw, 20px);
     font-weight: 800;
     margin: 5px 0;
 }
 
-.courses > p {
-    font-size: 1.1vw;
+.courses>p {
+    font-size: max(1.1vw, 12px);
 }
 
 .courses-list {
-    padding-top: 10px; 
+    padding-top: 10px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -207,12 +209,13 @@ body {
     list-style: none;
     cursor: pointer;
     color: #555;
-    font-size: 1.2vw;
+    font-size: max(1.2vw, 14px);
     font-weight: 700;
     padding: 5px 10px 5px 0;
 }
 
-.courses-list li:hover, .courses-list li.active {
+.courses-list li:hover,
+.courses-list li.active {
     color: #000;
 }
 
@@ -230,11 +233,11 @@ body {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -.02rem;
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 18px);
 }
 
 .content .description {
-    font-size: 0.9vw;
+    font-size: max(0.9vw, 14px);
     max-width: 65%;
     margin: 6px 0 12px;
 }
@@ -271,11 +274,12 @@ body {
     margin-bottom: 5px;
 }
 
-.course-info > div {
+.course-info>div {
     margin-bottom: 5px;
 }
 
-.course-info .title, .course-info .price {
+.course-info .title,
+.course-info .price {
     font-size: 16px;
     font-weight: 600;
 }
@@ -351,8 +355,28 @@ body {
     font-weight: 700;
 }
 
+.splide__arrow {
+    border-radius: 100%;
+    transform: scale(1.4);
+    background-color: #000;
+    color: #fff;
+}
+
+.splide__arrow.splide__arrow--prev {
+    left: -10px;
+    top: 55px;
+}
+
+.splide__arrow.splide__arrow--next {
+    right: -10px;
+    top: 55px;
+}
+
 @media only screen and (max-width: 1315px) {
-    .courses, .categories {
+
+    .header,
+    .courses,
+    .categories {
         width: 100%;
     }
 }
@@ -378,7 +402,7 @@ body {
     }
 
     .header-banner h1,
-    .courses > h1 {
+    .courses>h1 {
         font-size: 20px;
         margin-bottom: 5px;
     }
@@ -391,4 +415,3 @@ body {
         display: inline;
     }
 }
-

@@ -15,114 +15,105 @@ const fetchCourses = async () => {
 
 const renderCourses = (data) => {
     // heading
-    let heading = document.createElement("h3");
-    heading.classList.add("heading");
-    heading.innerHTML = data.header;
+    coursesContent.innerHTML = `
+        <h3 class="heading">${data.header}</h3>
+        <p class="description">${data.description}</p>
+        <button class="explore-btn">Explore ${data.name}</button>
+        <div class="splide">
+            <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+            <div class="cards splide__track">
+                <div class="splide__list">
+                    
+                </div>
+            </div>
+        </div>
+    `;
 
-    // description
-    let description = document.createElement("p");
-    description.classList.add("description");
-    description.innerHTML = data.description;
-
-    // explore button
-    let exploreBtn = document.createElement("button");
-    exploreBtn.classList.add("explore-btn");
-    exploreBtn.innerHTML = `Explore ${data.name}`;
-
-
-    // cards
-    let cards = document.createElement("div");
-    cards.classList.add("cards", "carousel-inner");
+    let cardsList = document.querySelector(".splide__list");
 
     for (let i = 0; i < data.courses.length; i++) {
         // create elements
-        let courseCard = document.createElement("div");
-        let courseImgContainer = document.createElement("div");
-        let courseImg = document.createElement("img");
-        let courseInfo = document.createElement("div");
-        let courseTitle = document.createElement("div");
-        let courseCreator = document.createElement("div");
-        let courseRating = document.createElement("div");
-        let courseRate = document.createElement("span");
-        let courseStars = document.createElement("span");
-        let courseReviews = document.createElement("span");
-        let coursePrice = document.createElement("div");
-        let bestSeller = document.createElement("div");
-
-        // fill elements with content
-        courseImg.src = data.courses[i].image;
-        courseTitle.innerHTML = data.courses[i].title;
-        courseCreator.innerHTML = data.courses[i].author;
-        courseRate.innerHTML = data.courses[i].rating;
-        coursePrice.innerHTML = `E£${data.courses[i].price}`;
-        courseReviews.innerHTML = `(${data.courses[i].reviews})`;
-        bestSeller.innerHTML = `Bestseller`;
-        for (let j = 0; j < 5; j++) {
-            let icon = document.createElement("i");
-            if (j + 0.8 <= data.courses[i].rating) {
-                icon.classList.add("fa-solid", "fa-star", "icon");
-            }
-            else if (j + 0.2 >= data.courses[i].rating) {
-                icon.classList.add("fa-regular", "fa-star", "icon");
-            }
-            else {
-                icon.classList.add("fa-solid", "fa-star-half-stroke", "icon");
-            }
-            courseStars.appendChild(icon);
-        }
+        cardsList.innerHTML += `
+            <div class="course-card splide__slide">
+                <div class="course-img">
+                    <img src="${data.courses[i].image}">
+                </div>
+                <div class="course-info">
+                    <div class="title">${data.courses[i].title}</div>
+                    <div class="creator">${data.courses[i].author}</div>
+                    <div class="rating">
+                        <span class="rate">${data.courses[i].rating}</span>
+                        <span class="stars">
+                            <i class="fa-solid fa-star icon"></i>
+                            <i class="fa-solid fa-star icon"></i>
+                            <i class="fa-solid fa-star icon"></i>
+                            <i class="fa-solid fa-star icon"></i>
+                            <i class="${data.courses[i].rating >= 4.8 ? `fa-solid fa-star` : `fa-solid fa-star-half-stroke`} icon"></i>
+                        </span>
+                        <span class="reviews">(${data.courses[i].reviews})</span>
+                    </div>
+                    <div class="price">E£${data.courses[i].price}</div>
+                    ${data.courses[i].bestseller ? `<div class="bestseller">Bestseller</div>` : ``}
+                </div>
+            </div>
+        `;
+    }
     
+    // add event listeners for cards
+    const cards = document.querySelectorAll(".course-card");
 
-        // assign classes to elements
-        courseCard.classList.add("course-card");
-        courseImgContainer.classList.add("course-img");
-        courseInfo.classList.add("course-info");
-        courseTitle.classList.add("title");
-        courseCreator.classList.add("creator");
-        courseRating.classList.add("rating");
-        courseRate.classList.add("rate");
-        courseStars.classList.add("stars")
-        courseReviews.classList.add("reviews");
-        coursePrice.classList.add("price");
-        bestSeller.classList.add("bestseller");
+    for (let i = 0; i < cards.length; i++) {
 
-        // append children
-        courseRating.appendChild(courseRate);
-        courseRating.appendChild(courseStars);
-        courseRating.appendChild(courseReviews);
-        courseImgContainer.appendChild(courseImg);
-        courseInfo.appendChild(courseTitle);
-        courseInfo.appendChild(courseCreator);
-        courseInfo.appendChild(courseRating);
-        courseInfo.appendChild(coursePrice);
-        if (data.courses[i].bestseller) {
-            courseInfo.appendChild(bestSeller);
-        }
-        courseCard.appendChild(courseImgContainer);
-        courseCard.appendChild(courseInfo);
-        cards.appendChild(courseCard);
-
-        // add event listeners for cards
-        courseCard.addEventListener('click', () => {
+        cards[i].addEventListener('click', () => {
             window.open(`${data.courses[i].link}`, '_blank');
         });
 
-        courseCard.addEventListener('mouseover', () => {
-            courseImg.style.opacity = 0.8;
+        cards[i].addEventListener('mouseover', () => {
+            cards[i].querySelector("img").style.opacity = 0.8;
         });
 
-        courseCard.addEventListener('mouseleave', () => {
-            courseImg.style.opacity = 1;
+        cards[i].addEventListener('mouseleave', () => {
+            cards[i].querySelector("img").style.opacity = 1;
         });
     }
 
-    coursesContent.appendChild(heading);
-    coursesContent.appendChild(description);
-    coursesContent.appendChild(exploreBtn);
-    coursesContent.appendChild(cards);
+    // make the slider
+    new Splide( '.splide', {
+        type   : 'slide',
+        perPage: 5,
+        perMove: 5,
+        pagination: false,
+        breakpoints: {
+            1200: {
+                perPage: 4,
+                perMove: 4,
+            },
+            980: {
+                perPage: 3,
+                perMove: 3,
+            },
+            700: {
+                perPage: 2,
+                perMove: 2,
+            },
+            550: {
+                perPage: 1,
+                perMove: 1,
+            },
+        },
+    } ).mount();
 };
 
-window.addEventListener('load', fetchCourses);
+window.addEventListener('load', fetchCourses); 
 
+// make courses section buttons usable
 const btns = document.querySelectorAll(".course-section");
 
 for (let i = 0; i < btns.length; i++) {
@@ -144,11 +135,8 @@ for (let i = 0; i < btns.length; i++) {
     });
 }
 
-
 // make search bar usable
-let searchBar = document.querySelector("#search");
-
-searchBar.addEventListener('keyup', (e) => {
+document.querySelector("#search").addEventListener('keyup', (e) => {
     // clear the courses
     coursesContent.innerHTML = ``;
 
